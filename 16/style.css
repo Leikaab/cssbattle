@@ -1,0 +1,47 @@
+.body {
+    display: grid;
+    place-items: center;
+    background: #0B2429;
+    width: 400px;
+    height: 300px;
+}
+
+.circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: #998235;
+    position: relative
+}
+
+.square {
+    position: absolute;
+    width: 95px;
+    height: 95px;
+    background: #998235;
+}
+
+.s1 {
+    transform: rotate(45deg) translateY(-50%);
+    top: 43%;
+    left: -28%;
+}
+
+.s2 {
+    transform: rotate(45deg) translateY(-50%);
+    top: 43%;
+    left: 47%;
+}
+
+.inner {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    background: #0B2429;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 45px solid #F3AC3C;
+    box-shadow: 0 0 0 20px #0B2429;
+}

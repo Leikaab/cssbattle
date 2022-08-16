@@ -1,0 +1,68 @@
+.body {
+    margin: 0;
+    display: flex;
+    width: 400px;
+    height: 300px;
+}
+
+.main {
+    width: 50%;
+    position: relative;
+    background: #191919;
+    overflow: hidden;
+}
+
+.d1 {}
+
+.d2 {
+    width: 44%;
+}
+
+.d3 {
+    width: 6%;
+}
+
+.b {
+    background: #5DBCF9;
+}
+
+.ctr {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.boxc {
+    border-radius: 20%;
+    height: 50px;
+    width: 58px;
+    transform: translate(-25px, -50%);
+}
+
+.speaker {
+    height: 200px;
+    width: 200px;
+    transform: translate(41px, -50%) rotate(45deg);
+}
+
+.circle {
+    position: absolute;
+    border-radius: 100%;
+    background: #191919;
+    border: 10px solid #5DBCF9;
+    top: 50%;
+    left: 0%;
+    transform: translate(-50%, -50%);
+    width: 80px;
+    height: 80px;
+}
+
+.c2 {
+    width: 130px;
+    height: 130px;
+}
+
+.c3 {
+    width: 180px;
+    height: 180px;
+}

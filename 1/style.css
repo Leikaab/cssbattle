@@ -1,0 +1,23 @@
+html {
+    color: white;
+}
+
+body {
+    height: 300px;
+    width: 400px;
+    border: 1px white solid;
+}
+
+body {
+    background: red;
+    display: flex;
+    width: 400px;
+    height: 300px;
+    border: 0;
+}
+
+.ld {
+    background: green;
+    width: 50%;
+    height: 100%;
+}
